@@ -28,4 +28,4 @@ if __name__ == '__main__':
     if password == '':
         print ('Вы не ввели пароль')
     else:    
-        print (get_password_strength(password))
+        print ('Оценка вашего пароля -',get_password_strength(password))
